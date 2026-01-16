@@ -46,3 +46,28 @@
 .form > button:hover {
   background-color: #6c8cff;
 }
+
+.loader {
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding-bottom: 40px;
+}
+
+.info {
+  padding: 8px 12px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  gap: 12px;
+}
