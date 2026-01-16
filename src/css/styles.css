@@ -47,12 +47,27 @@
   background-color: #6c8cff;
 }
 
-.loader {
-  letter-spacing: 0.04em;
-  color: #2e2f42;
 
-  text-align: center;
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
+
+.hidden {
+  display: none;
+}
+
+
+.spinner {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+
 
 .gallery {
   display: grid;
