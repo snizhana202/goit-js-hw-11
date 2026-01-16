@@ -7,12 +7,42 @@
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 40px;
+  gap: 8px;
+  height: 40px;
+}
+
+.form > label > input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 23px;
+  padding: 8px 12px;
+}
+
+.form > label > input:hover {
+  border-color: #000;
+}
+
+.form > button {
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  width: 91px;
+
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form > button:hover {
+  background-color: #6c8cff;
+}
