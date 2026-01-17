@@ -47,7 +47,6 @@
   background-color: #6c8cff;
 }
 
-
 .loader {
   display: flex;
   justify-content: center;
@@ -59,15 +58,12 @@
   display: none;
 }
 
-
 .spinner {
   display: inline-block;
   position: relative;
   width: 80px;
   height: 80px;
 }
-
-
 
 .gallery {
   display: grid;

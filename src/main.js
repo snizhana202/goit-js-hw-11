@@ -1,10 +1,10 @@
-import { getImagesByQuery } from './pixabay-api.js';
+import { getImagesByQuery } from './js/pixabay-api.js';
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './render-functions.js';
+} from './js/render-functions.js';
 
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
@@ -31,7 +31,8 @@ form.addEventListener('submit', event => {
     .then(data => {
       if (data.hits.length === 0) {
         iziToast.warning({
-          message: 'Sorry, there are no images matching your search query. Please, try again!',
+          message:
+            'Sorry, there are no images matching your search query. Please, try again!',
           position: 'topRight',
         });
         return;
